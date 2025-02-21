@@ -65,15 +65,36 @@
 
 						<!-- Panel (Spotlight) -->
 							<section class="panel spotlight large left">
-								<div class="content span-5">
-									<h2 class="major">Face to Race</h2>
-									<p>Upload one or more images to classify them based on the trained model.</p>
-								</div>
-							</div>
-							<div class="gradio-container">
-								<iframe src="https://utkmst-face-to-race.hf.space" frameborder="0" width="100%" height="500px"></iframe>
-							</div>
+							  <div class="content span-5">
+							    <h2 class="major">Face to Race</h2>
+							    <p>Upload one or more images to classify them based on the trained model.</p>
+							  </div>
+							  <div class="gradio-container">
+							    <iframe src="https://utkmst-face-to-race.hf.space" frameborder="0" width="100%" height="600px"  style="border:none;"></iframe>
+							  </div>
 							</section>
+							
+							<style>
+							  .gradio-container {
+							    width: 100%; /* Ensure container takes full width */
+							    margin-top: 20px; /* Add some spacing above the Gradio container */
+							  }
+							  .gradio-container iframe {
+							    display: block; /* Prevents potential whitespace issues below the iframe */
+							    width: 100%; /* Ensures iframe takes full width of its container */
+							    height: 600px; /* Adjust as needed */
+							    max-height: 80vh; /* Optional: sets a maximum height relative to the viewport */
+							    border: none; /* Removes default iframe border */
+							    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+							  }
+							
+							  /* Media query for smaller screens - adjust height as needed */
+							  @media (max-width: 768px) {
+							    .gradio-container iframe {
+							      height: 500px; 
+							    }
+							  }
+							</style>
 
 						<!-- Panel -->
 							<section class="panel">
