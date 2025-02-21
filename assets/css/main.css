@@ -562,6 +562,11 @@
 		overflow-wrap: break-word;
 		white-space: pre-wrap;
 	}	
+	.gradio-container {
+    		width: 100%;
+   	 	max-width: 700px;
+    	margin-top: 20px;
+	}
 /* Form */
 
 	form {
