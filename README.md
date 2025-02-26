@@ -14,7 +14,7 @@ The model was trained on the FairFace dataset. This dataset contains images of f
 
 ## Model Architecture
 
-The model is based on CNN. The model was trained using FastAI.
+The model is trained with convnext_tiny_in22k. The model was trained using FastAI.
 
 ## Accuracy
 
