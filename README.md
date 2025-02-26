@@ -19,3 +19,4 @@ The model is based on CNN. The model was trained using FastAI.
 ## Accuracy
 
 As 21st February, 2025 : 0.523288
+As 26th February, 2025 : 0.6479
